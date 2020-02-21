@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+
+table{
+	border: 1px solid  rgba(0,136,169,1);
+	width: 95%;
+	opacity: 0.9;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 800;
+
+}
+td,th{
+	padding:6px;
+	text-align: center;
+	color: white;
+	border: none;
+}
+th{
+	background-color: rgba(20, 20, 20);
+}
+tr:nth-child(even){
+	background-color: rgba(20, 20, 20, .5);
+}
+tr:nth-child(odd){
+	background-color:  rgba(20, 20, 20, .7);
+}
+
+.pairs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    color: white;
+}
+
+.pair-names{
+    border: 2px solid white;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 30px;
+}
+
+.pair-names:nth-child(even){
+    color: black;
+    background: white;
+}
+
