@@ -134,6 +134,8 @@ public class Sql2oPairsDao implements PairsDao {
             finalArray.add(initialNames.get(0));
         }
 
+        Collections.shuffle(finalArray);
+
         return finalArray;
 
     }
